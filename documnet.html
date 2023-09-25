@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            background-color: #d9fc15;
+            padding: 20px;
+            width: 400px;
+            border-radius: 20px;
+            display: block;
+            color: rgb(39, 2, 77);
+        }
+        body {
+            background-color: rgb(39, 2, 77);
+        }
+        img {
+            width: 400px;
+            height: 400px;
+            object-fit: fill;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius:15px 100px;
+            border: 5px solid #d9fc15;
+        }
+        label{
+            font-size: 20px;
+            color: #d9fc15;
+        }
+        select{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin: 0 auto;
+            font-family: 'Orbitron', sans-serif;
+            background-color: #d9fc15;
+            padding: 20px;
+            width: 400px;
+            border-radius: 20px;
+            display: block;
+        }
+        button{
+            text-transform: uppercase;
+            text-align: center;
+            background-color: #d9fc15;
+            padding: 20px;
+            width: 400px;
+            border-radius: 20px;
+            display: block;
+            color: rgb(39, 2, 77);
+
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <center> <h1>Animal Selector</h1> </center>
+</body>
+<label for="animals"> <b> Select the animal you want </b>:</label>
+&nbsp;
+<select id="animals">
+    
+    <option value=""> <b>Choose the animal</b> </option>
+    <option value="0">Dog</option>
+    <option value="1">Cat</option>
+    <option value="2">Mouse</option>
+</select>
+<br>
+<br>
+<center>
+<!-- <img id="dog_1" src="https://img.freepik.com/free-photo/isolated-happy-smiling-dog-white-background-portrait-4_1562-693.jpg" style="display: none;">
+<img id="dog_2" src="https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559_1280.jpg" style="display: none;">
+<img id="dog_3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1nrGGDniM-aU2w3rv30bLYp2GCo4Sl_uX_G3GjrZs&s" style="display: none;">
+<img id="cat_1" src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*" style="display: none;">
+<img id="mice" src="https://media.istockphoto.com/id/1137633429/photo/golden-hamster-in-front-of-white-background.jpg?s=612x612&w=0&k=20&c=PMLTheCQNARkjE05NgI-MFf4-2RgMJwgfgUEUVDlLDs=" style="display: none;"> -->
+<img id="imgContainer" src="" alt="randomImage"/>
+&nbsp;
+<button onclick="getRandomImage()"><b>Generate the Image</b></button>
+
+</center>
+<p></p>
+<script src="./style_1.js"></script>
+</html>
